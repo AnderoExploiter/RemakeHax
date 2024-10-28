@@ -1,3 +1,9 @@
+game.StarterGui:SetCore("SendNotification", {
+    Title    = "Loaded!";
+    Text     = "Press Insert to open Internal UI!";
+    Duration = "4";
+})
+
 -- Gui to Lua
 -- Version: 3.3
 
