@@ -14,7 +14,7 @@ local Open = Instance.new("TextButton")
 
 PrintUI.Name = "PrintUI"
 PrintUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-PrintUI.Enabled = false
+PrintUI.Enabled = true
 PrintUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Frame.Parent = PrintUI
